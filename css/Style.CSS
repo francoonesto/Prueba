@@ -1,0 +1,444 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body { 
+    background-color: #2b2d42;  
+    width: 100vw;
+    height: 150vh;
+}
+
+header { 
+    background-color: #8d99ae;
+    text-align: center;
+    width: 100vw;
+    height: 40vh; 
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2px;
+    margin: 3px;
+    background-color: #edf2f4;
+    color: black;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #edf2f4;
+ }
+ 
+ a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+ }
+
+header div img { 
+height: 160px;
+width: 160px;
+ }
+
+ .arreglo__Texto {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    text-align: center;
+ }
+
+.principal__titulo {
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+}
+
+main { 
+    background-color: #ef233c;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fondoPage {
+background-image:url(../assets/images/pared1.jfif)
+}
+
+.body__Productos{
+        background-color: #2b2d42;  
+        width: 100vw;
+        height: 250vh;
+}
+
+.body__Sucursales{
+    background-color: #2b2d42;  
+    width: 100vw;
+    height: 200vh;}
+
+.main__Sucursales{
+    background-image:url(../assets/images/pared1.jfif);
+    height:150vh ;}
+
+.main__Productos{
+    background-image:url(../assets/images/pared1.jfif);
+    height:200vh ;
+    }
+    
+
+#viDeo {
+    width: 663px;
+    height: 100vh;
+    float: left;
+    padding-left: 12px;
+}
+#viDeo2{
+    width: 663px;
+    height: 100vh;
+    float: right;
+    padding-right: 15px;
+}
+
+.conteneDor{
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.conteneDor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 58%; 
+}
+
+.acomodar__Parrafo{
+    padding-top: 60%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; 
+}
+
+footer { 
+    background-color: #979dac;
+    width: 100vw;
+    height: 10vh;
+    overflow-y: hidden;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.acomodar__Piedepage {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1rem;
+}
+
+.redSocial{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.imagenes__Contenedor {
+    display: inline-block;
+  padding: 30px;
+  margin:60px;
+  padding-top: 50px;
+  background-image:url(../assets/images/Nuestrocheff.jpg) ;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.imagenes__Contenedor1 {   
+  margin: 145px;
+  background-image:url(../assets/images/Hamburguesa.png) ;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  float: right;
+}
+
+.tamano__img{
+    width: 250px;
+    height:250px;
+  }
+
+  .tamano__img1{
+    width: 250px;
+    height:360px;
+  }
+
+.acomodar__parrafo2{
+    padding-left:28%;
+    top: 54%;
+    position: absolute;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .encabezado{
+    padding-left:40%;
+    top: 72%;
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .acomodar__parrafo3{
+    padding-left:28%;
+    top: 84%;
+    position: absolute;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .acomodar__parrafo4{
+    padding-left:4%;
+    top: 111%;
+    position: absolute;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ 
+  .caja__Encabezado{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    text-align: center;
+    border-style: solid;
+    color: black;
+    border-color:#edf2f4;
+    background-color: #edf2f4;
+  }
+
+  .caja__Encabezado2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    text-align: center;
+    border-style: solid;
+    color: black;
+    border-color:#edf2f4;
+    background-color: #edf2f4;
+    display: block;
+    margin-top: 35px;
+  }
+ 
+  .imagen__PrimerLineaVeggie{
+    padding-left: 150px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+.imagen__ultLineaVeggie{
+    padding-left: 101px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+.imagen__TituloLineaVeggie{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding-left: 100px;
+}
+
+.imagen__TextoVeggie{
+    font-size: 1.5rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 5px;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+}
+
+.imagen__PrimerLinea{
+    padding-right: 3px;
+    padding-left: 70px;
+    padding-top: 45px;
+    display: inline-block;
+}
+
+.imagen__SegundaLinea{
+    padding-left: 20%;
+    padding-top: 45px;
+    display: inline-block;
+}
+
+.imagen__SegundaLineault{
+    padding-left: 15%;
+    padding-top: 45px;
+    display: inline-block;
+    padding-bottom: 59px;
+}
+
+.imagen__ultLinea{
+    padding-bottom: 11px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.imagen__Titulo{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 80px;
+}
+
+.imagen__Texto{
+    font-size: 1.5rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 2px;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+}
+
+.ajuste__ultTitulo{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 50px;
+}
+
+.ajuste__ultTexto{
+    font-size: 1.3rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 35px;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+}
+
+ .texto__Lista{
+    font-size: 1.5rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    font-style: normal;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+ }
+
+ .contacto__Texto{
+float: left;
+padding-left: 50px;
+padding-top: 20px;
+border-style: solid;
+border-color: #2b2d42;
+margin-left: 10px;
+width: 94%;
+margin-left: 0;
+ }
+
+ .contacto__Formulario{
+float:right;
+padding-right: 5px;
+padding-top: 20px;
+height: 100%;
+width: 48%;
+ }
+
+ .body__Contacto{
+    background-color: #2b2d42;  
+    width: 100vw;
+    height: 100vh;}
+
+ .header__Contacto{
+    background-color: #8d99ae;
+    text-align: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 20vh; }
+
+ .main__Contacto{
+    background-image:url(../assets/images/pared1.jfif);
+ height:70vh ;}
+
+ .nav__Arreglo{
+    text-align: center;
+    padding-top: 50px;
+ }
+
+ .acomodar__Contacto{
+    float: left;
+    padding-top: 20px;
+    height: 100%;
+    width: 50%;
+    font-size: 0;
+ }
+
+ .form__1{
+    border-style: solid;
+    border-color: #2b2d42;
+    font-size: 2.2rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.form__2{
+padding-top: 20px;
+}
+
+table tr td{
+    border:solid 2px;
+    font-size: 1.4REM;
+    font-weight: bold;
+    padding-left: 110px;
+}
+
+.acomodar__Table{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul div li{
+    border-style: solid;
+    border-color: #2b2d42;
+    margin: 15px;
+    width: 95%;
+    text-align: center;
+}
+
+.logo__Wsp{
+    position: fixed;
+    top:85% ;
+    font-size: 1.2REM;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
